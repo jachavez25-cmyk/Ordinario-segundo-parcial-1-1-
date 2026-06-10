@@ -1,4 +1,4 @@
-.conocenos {
+.contenedor {
     background-color: rgb(89, 187, 252);
     padding: 10px;
     margin-bottom: 10px;
@@ -10,4 +10,43 @@
     border-right: 1px solid black;
     text-decoration: none;
     padding: 10px;
+}
+
+.formulario{
+    width: 500px;
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.campo label{
+    width: 120px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f3d8f;
+}
+
+.campo input{
+    width: 350px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+/* Botón */
+.boton{
+    width: 150px;
+    height: 180px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f3d8f;
+    background-color: white;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #f0f0f0;
 }
